@@ -80,7 +80,13 @@ WSGI_APPLICATION = 'student_sys.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
+        # 'ENGINE': 'django.db.backends.mysql',
         'NAME': BASE_DIR / 'db.sqlite3',
+        # 'USER': 'mydatabaseuser',
+        # 'NAME': 'mydatabase',
+        # 'TEST': {
+        #     'NAME': 'mytestdatabase',
+        # }
     }
 }
 

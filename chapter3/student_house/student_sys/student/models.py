@@ -29,6 +29,9 @@ class Student(models.Model):
 
     class Mate:
         verbose_name = verbose_name_plural = "学员信息"
+    @property
+    def sex_show(self):
+        return dict(self.SEX_ITEMS)[self.sex]
 
     @classmethod
     def get_all(cls):
