@@ -1,1 +1,1 @@
-# learn-django
+# 第五章 奠定项目基石：Model
